@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | HTML & Basics</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <style>
+      img {
+        max-width: 100%;
+      }
+      .card {
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        background-color: white; 
+        overflow: hidden;
+      }
+      p {
+        margin: 0;
+      }
+      .card-footer {
+        padding: 0 25px 25px 25px; /*top right bottom left*/
+        display: grid;
+        grid-template-columns: 1fr 1fr 3fr;
+      }
+      .time {
+        text-align: right;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class="card">
+      <img alt="" src="https://picsum.photos/320/240">
+      <p>
+        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      </p>
+      <footer class="card-footer">
+        <button class="viewButton">
+          View
+        </button>
+        <button class="editButton">
+          Edit
+        </button>
+        <span class="time">
+          9 mins
+        </span>
+      </footer>
+    </article>
+  </body>
+  
+</html>
